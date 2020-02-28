@@ -86,6 +86,8 @@ function calculateAge(year) {
     console.log(this);
 }
 
+const item = 'name'
+john[item]
 var john = {
     name: 'John',
     yearOfBirth: 1990,
