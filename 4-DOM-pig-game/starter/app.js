@@ -57,9 +57,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
 
     }
 
-    document.querySelector('btn-new').addEventListener('click', function () {
-        init()
-    })
+    document.querySelector('btn-new').addEventListener('click', init)
 
     function init() {
         scores = [0, 0]
